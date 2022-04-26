@@ -30,7 +30,7 @@
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 24px auto;
-  
+
   /* flex */
 
   flex-direction: column;
@@ -101,11 +101,11 @@
   list-style: none;
   justify-content: flex-start;
   margin: -8px 0 0 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .content .list-two li {
-  background: #ebebff; 
+  background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
   margin-right: 8px;
