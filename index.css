@@ -111,6 +111,14 @@
   margin-right: 8px;
 }
 
+.card .fig-image {
+  background-position: center;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  margin: 0 0 12px 0;
+}
+
 /* ********************************************* */
 
 /* buttons */
