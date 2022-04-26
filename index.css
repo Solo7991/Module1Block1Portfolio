@@ -19,3 +19,94 @@
 }
 
 /* ********************************** */
+
+/* Card */
+
+.card {
+  width: 327px;
+  height: 596px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 24px auto;
+  
+  /* flex */
+
+  flex-direction: column;
+}
+
+/* *********************************** */
+
+/* flexbox */
+
+.flex {
+  display: flex;
+}
+
+/* *********************************** */
+
+/* Card content */
+
+.content .head-two {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.content .head-three {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  margin: 0 12px 0 0;
+  padding: 0 0 0 0.1em;
+}
+
+.content .list {
+  margin-bottom: 20px;
+  align-items: start;
+  justify-content: flex-start;
+  margin-top: -3px;
+}
+
+.content .list div {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  margin: 0 12px 0 0;
+}
+
+.content .msg {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: -4px 0 12px 0;
+  padding: 0 0 12px 0;
+}
+
+/* this is a ul */
+.content .list-two {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  list-style: none;
+  justify-content: flex-start;
+  margin: -8px 0 0 0;
+  padding: 0; 
+}
+
+.content .list-two li {
+  background: #ebebff; 
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin-right: 8px;
+}
