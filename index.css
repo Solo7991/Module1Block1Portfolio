@@ -138,6 +138,10 @@
   margin-top: 26px;
 }
 
+.contact button {
+  align-self: start;
+}
+
 .content button:disabled,
 .about button:disabled,
 .contact button:disabled {
@@ -336,7 +340,4 @@
   color: #b3bac5;
 }
 
-.contact button {
-  align-self: start;
-}
 
