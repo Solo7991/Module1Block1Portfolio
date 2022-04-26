@@ -168,19 +168,19 @@
 
 /* Images */
 .card .one {
-  background-image: url(../images/1.png);
+  background-image: url(images/1.png);
 }
 
 .card .two {
-  background-image: url(../images/2.png);
+  background-image: url(images/2.png);
 }
 
 .card .three {
-  background-image: url(../images/3.png);
+  background-image: url(images/3.png);
 }
 
 .card .four {
-  background-image: url(../images/4.png);
+  background-image: url(images/4.png);
 }
 
 /* ****************************************** */
