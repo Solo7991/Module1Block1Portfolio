@@ -220,7 +220,7 @@
   line-height: 24px;
   color: #344563;
   margin-bottom: 12px;
-} 
+}
 
 .about h2 {
   font-weight: 700;
@@ -238,7 +238,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
 
 .language-section ul {
@@ -269,7 +269,7 @@
 .language-section li:nth-of-type(5),
 .language-section li:nth-of-type(6) {
   padding: 24px 0;
-  border-bottom: 1px solid #dfe1e6;  
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .language-section li:nth-of-type(1) {
