@@ -371,3 +371,87 @@
   top: 686.27px;
   left: 253.28px;
 }
+
+/* *************************************** */
+
+/* amends */
+.icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.icons li {
+  margin-right: 20px;
+}
+
+.first-wrapper {
+  height: 680px;
+  padding: 24px;
+  border-radius: 0 0 0 80px;
+  background: #fff;
+  position: relative;
+}
+
+.first-wrapper nav {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  justify-content: space-between;
+}
+
+.first-wrapper h1 {
+  margin: 120px 0 12px 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.first-wrapper p {
+  padding: 0;
+  margin: 0 0 12px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.first-wrapper h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8Cff;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.pat {
+  position: absolute;
+}
+
+.pat:nth-of-type(1) {
+  top: 104.24px;
+  left: 323px;
+}
+
+.pat:nth-of-type(2) {
+  top: 69.79px;
+  left: 294px;
+}
+
+.pat:nth-of-type(3) {
+  top: 62px;
+  left: 214px;
+}
+
+.pat:nth-of-type(4) {
+  top: 113.47px;
+  left: 0;
+}
