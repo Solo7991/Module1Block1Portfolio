@@ -74,6 +74,10 @@
   margin-top: -3px;
 }
 
+.icons li {
+  margin-right: 20px;
+}
+
 .content .list div {
   font-weight: 600;
   font-size: 13px;
@@ -385,10 +389,6 @@
   text-decoration: none;
 }
 
-.icons li {
-  margin-right: 20px;
-}
-
 .first-wrapper {
   height: 680px;
   padding: 24px;
@@ -427,7 +427,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8Cff;
+  color: #7f8cff;
   padding: 0;
   margin: 12px 0;
 }
