@@ -117,6 +117,10 @@
   margin-right: 8px;
 }
 
+.list-two  {
+  float: left;
+}
+
 .card .fig-image {
   background-position: center;
   width: 295px;
