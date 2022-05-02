@@ -477,3 +477,7 @@ body {
   top: 113.47px;
   left: 0;
 }
+
+.nav-links {
+  display: none;
+}
