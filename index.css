@@ -481,3 +481,12 @@ body {
 .nav-links {
   display: none;
 }
+
+/* don't display on mobile */
+.desktop {
+  display: none;  
+}
+
+.mobile {
+  display: block;
+}
