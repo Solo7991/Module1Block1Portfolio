@@ -484,7 +484,7 @@ body {
 
 /* don't display on mobile */
 .desktop {
-  display: none;  
+  display: none;
 }
 
 .mobile {

@@ -60,17 +60,27 @@
     border-radius: 24px;
   }
 
+  .card .fig-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 46.5%;
+    height: 100%;
+    border-radius: 8px;
+    margin: 0 0 12px 0;
+  }
+
   .card:nth-of-type(odd) .fig-image {
     order: 1;
   }
 
-  .card:nth-of-type(odd) .content {
-    padding-left: 20px;
-  }
-
   .content {
     width: 50%;
-    margin-top: 24px; 
+    margin-top: 24px;
+  }
+
+  .card:nth-of-type(odd) .content {
+    padding-left: 20px;
   }
 
   .content .head-two {
@@ -109,19 +119,9 @@
     margin: 0 12px 0 0;
   }
 
-  .card .fig-image {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 46.5%;
-    height: 100%;
-    border-radius: 8px;
-    margin: 0 0 12px 0;
-  }
-
   /* Images */
   .card .one {
-    background-image: url(de-images/1.png); 
+    background-image: url(de-images/1.png);
   }
 
   .card .two {
@@ -145,6 +145,7 @@
     width: 75%;
     margin: 0 auto;
     padding: 0;
+    flex: calc(9 / 22);
   }
 
   .wrapper {
@@ -153,10 +154,6 @@
     margin: 15% auto;
     align-items: flex-start;
     justify-content: space-between;
-  }
-
-  .about {
-    flex: calc(9 / 22);
   }
 
   .about h2 {
@@ -179,6 +176,10 @@
     height: 120px;
     align-items: flex-start;
     margin-right: 12px;
+  }
+
+  .nav-links li {
+    margin: 0 16px;
   }
 
   .language-section li:nth-of-type(1),
@@ -220,10 +221,6 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-  }
-
-  .nav-links li {
-    margin: 0 16px;
   }
 
   .nav-links li a {
@@ -308,7 +305,7 @@
 @media (min-width: 850px) {
   /* don't display on mobile */
   .desktop {
-    display: block;  
+    display: block;
   }
 
   .mobile {
