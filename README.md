@@ -2,7 +2,7 @@
 # Mobile-version Portfolio
 
 > Build a mobile-v portfolio implementing use of flexbox and grids
-
+> Build a desktop-v portfolio implementing use of flexbox and grids
 
 ## Built With
 
