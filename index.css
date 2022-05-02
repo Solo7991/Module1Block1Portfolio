@@ -362,6 +362,10 @@ body {
   color: #b3bac5;
 }
 
+.contact form {
+  flex-direction: column;
+}
+
 /* ************************************************ */
 
 /* pattern */
