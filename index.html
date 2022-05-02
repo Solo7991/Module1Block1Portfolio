@@ -353,15 +353,17 @@
                                 class="flex"
                             >
                                 <label for="name">
-                                    <input type="text" placeholder="Jack" id="name">
+                                    <input type="text" placeholder="Jack" id="name" required
+                                    maxlength="30" name="name">
                                 </label>
                                 <label for="email">
-                                    <input type="text" placeholder="jack32@gmail.com" id="email">
+                                    <input type="email" placeholder="jack32@gmail.com" id="email"
+                                    required name="email">
                                 </label>
-                                <label for="more"><textarea id="more"
+                                <label for="more"><textarea id="more" required maxlength="500" name="more"
                                     >Write your message here</textarea>
                                 </label>
-                                <button type="submit">
+                                <button type="submit" name="submit">
                                     Get It Touch
                                 </button>
                             </form>
