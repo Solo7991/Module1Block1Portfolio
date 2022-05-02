@@ -212,6 +212,7 @@
   }
 
   /* ********************************************** */
+
   /* additions */
   .nav-links {
     display: flex;
@@ -236,7 +237,7 @@
 
   .back {
     position: relative;
-    padding:  0 30%;
+    padding: 0 30%;
   }
 
   /* desktop patterns */
