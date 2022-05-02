@@ -195,12 +195,17 @@ body {
 
 /* ****************************************** */
 
-/* wrapper */
-.wrapper {
+/* about-myself */
+#about-myself {
   width: 100%;
   border-radius: 0 80px 0 0;
   height: 1019px;
   background: #fff;
+}
+
+/* wrapper */
+.wrapper {
+  flex-direction: column;
 }
 
 /* about */
