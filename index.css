@@ -151,6 +151,8 @@ body {
 .contact button {
   align-self: start;
   margin-top: 12px;
+  border-radius: 8px;
+  border: none;
 }
 
 .content button:disabled,
