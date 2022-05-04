@@ -302,6 +302,12 @@
     left: 83.86px;
   }
 
+  .back > div:nth-of-type(5) {
+    position: absolute;
+    top: 762px;
+    left: 358.05px;
+  }
+
   /* don't display on mobile */
   .desktop {
     display: block;
