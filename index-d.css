@@ -301,9 +301,7 @@
     top: 338.76px;
     left: 83.86px;
   }
-}
 
-@media (min-width: 850px) {
   /* don't display on mobile */
   .desktop {
     display: block;
@@ -313,3 +311,4 @@
     display: none;
   }
 }
+
