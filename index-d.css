@@ -13,6 +13,12 @@
     display: none;
   }
 
+  /* body */
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   /* first-wrapper (welcome-part) */
   .first-wrapper {
     position: relative;
@@ -301,9 +307,13 @@
     top: 338.76px;
     left: 83.86px;
   }
-}
 
-@media (min-width: 850px) {
+  .back > div:nth-of-type(5) {
+    position: absolute;
+    top: 762px;
+    left: 358.05px;
+  }
+
   /* don't display on mobile */
   .desktop {
     display: block;
