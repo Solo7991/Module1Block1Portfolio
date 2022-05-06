@@ -23,6 +23,7 @@
   transform: scale(1.01);
   transition-duration: 0.7s;
 }
+
 .contact input:hover,
 .contact textarea:hover {
   padding: 15px 19px;
