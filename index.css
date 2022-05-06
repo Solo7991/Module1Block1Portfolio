@@ -207,6 +207,7 @@ body {
 /* wrapper */
 .wrapper {
   flex-direction: column;
+  height: 1263px;
 }
 
 /* about */
