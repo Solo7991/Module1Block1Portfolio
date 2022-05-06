@@ -449,30 +449,6 @@ img {
   margin: 12px 0;
 }
 
-.pat {
-  position: absolute;
-}
-
-.pat:nth-of-type(1) {
-  top: 104.24px;
-  left: 323px;
-}
-
-.pat:nth-of-type(2) {
-  top: 69.79px;
-  left: 294px;
-}
-
-.pat:nth-of-type(3) {
-  top: 62px;
-  left: 214px;
-}
-
-.pat:nth-of-type(4) {
-  top: 113.47px;
-  left: 0;
-}
-
 .nav-links {
   display: none;
 }
