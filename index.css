@@ -267,10 +267,18 @@ body {
   color: #000;
 }
 
-.language-section ul {
+.language-section ul,
+.language-section ul ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .language-section .flex {
