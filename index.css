@@ -418,6 +418,10 @@ img {
   justify-content: space-between;
 }
 
+.first-wrapper .hello {
+  margin-top: 113px;
+}
+
 .first-wrapper h1 {
   margin: 120px 0 12px 0;
   padding: 0;
