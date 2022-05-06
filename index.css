@@ -216,6 +216,11 @@ body {
   padding-top: 114px;
 }
 
+.first-wrapper > * {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .about .icons > * {
   margin-right: 21px;
 }
