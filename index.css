@@ -33,7 +33,7 @@ body {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin: 24px auto;
+  margin: 88px auto;
 
   /* flex */
 
@@ -160,7 +160,7 @@ body {
   border: none;
 }
 
-.language-section ul button {
+.language-section > ul > li > div {
   width: 100%;
   border: none;
   background: #fff;
@@ -170,6 +170,11 @@ body {
   font-size: 20px;
   line-height: 24px;
   padding: 23px 6px;
+}
+
+.language-section > ul > li > div p {
+  margin: 0;
+  padding: 0;
 }
 
 .content button:disabled,
@@ -281,7 +286,7 @@ img {
   height: auto;
 }
 
-.language-section ul button img {
+.language-section ul li img {
   display: block;
   margin-right: 25px;
 }
