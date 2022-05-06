@@ -41,6 +41,10 @@ body {
   margin-bottom: 0;
 }
 
+.card:nth-of-type(even) {
+  height: 552px;
+}
+
 /* *********************************** */
 
 /* flexbox */
