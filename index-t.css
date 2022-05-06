@@ -31,3 +31,7 @@
 .nav-links li a:hover {
   color: rgb(247, 139, 52);
 }
+
+.icons li:hover {
+  transform: scale(1.09);
+}
