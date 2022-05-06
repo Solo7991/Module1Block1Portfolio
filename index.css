@@ -385,43 +385,6 @@ img {
   margin: 20px 0 0 0;
 }
 
-/* ************************************************ */
-
-/* pattern */
-.abs {
-  position: absolute;
-}
-
-.bigcurve {
-  left: 328px;
-  top: 48.75px;
-}
-
-.bigrect {
-  left: 310px;
-  top: 21.4px;
-}
-
-.midcurve {
-  top: 55px;
-  left: 153px;
-}
-
-.midrect {
-  top: 663.97px;
-  left: 258.8px;
-}
-
-.smallcurve {
-  top: 686.27px;
-  left: 253.28px;
-}
-
-.shape {
-  top: 755px;
-  left: 120px;
-}
-
 /* *************************************** */
 
 /* amends */
