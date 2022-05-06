@@ -410,6 +410,7 @@ img {
 }
 
 .first-wrapper nav {
+  padding-top: 48px;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
