@@ -73,10 +73,10 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 47%;
+    width: 50%;
     height: 90%;
     border-radius: 8px;
-    margin: 24px auto;
+    margin: 0 auto;
     overflow: hidden;
   }
 
@@ -86,7 +86,7 @@
 
   .content {
     width: 50%;
-    margin-top: 24px;
+    padding: 24px;
   }
 
   .card:nth-of-type(odd) .content {
