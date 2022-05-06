@@ -369,6 +369,7 @@ img {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
+  transition: padding 0.25s;
 }
 
 .contact textarea {
