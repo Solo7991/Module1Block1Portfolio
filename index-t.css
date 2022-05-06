@@ -27,3 +27,7 @@
 .contact textarea:hover {
   padding: 15px 19px;
 }
+
+.nav-links li a:hover {
+  color: rgb(247, 139, 52);
+}
