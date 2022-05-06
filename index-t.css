@@ -1,0 +1,38 @@
+/* make logo rotate */
+.first-wrapper nav div:first-child {
+  animation-name: logo-rotate;
+  animation-duration: 1.5s;
+}
+
+@keyframes logo-rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card .fig-image:hover,
+.card .fig-image:hover img {
+  transform: scale(1.01);
+  transition-duration: 0.7s;
+}
+
+.contact input:hover,
+.contact textarea:hover {
+  padding: 15px 19px;
+}
+
+.nav-links li a:hover {
+  color: rgb(247, 139, 52);
+}
+
+.icons li:hover {
+  transform: scale(1.09);
+}
