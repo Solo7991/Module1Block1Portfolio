@@ -281,6 +281,11 @@ img {
   height: auto;
 }
 
+.language-section ul button img {
+  display: block;
+  margin-right: 25px;
+}
+
 .language-section .flex {
   font-weight: 500;
   font-size: 15px;
