@@ -21,7 +21,8 @@
 
   /* first-wrapper (welcome-part) */
   .first-wrapper {
-    position: relative;
+    background-image: url("pattern/de-header.svg");
+    background-position: center;
     height: 916px;
   }
 
@@ -59,21 +60,24 @@
 
   .card {
     flex-flow: row nowrap;
-    width: calc(1156 / 1440 * 100vw);
+    width: 80.27%;
     height: 496px;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
     border-radius: 24px;
+    margin: 142px auto;
+    margin-bottom: 0;
   }
 
   .card .fig-image {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 46.5%;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 47%;
+    height: 90%;
     border-radius: 8px;
-    margin: 0 0 12px 0;
+    margin: 24px auto;
+    overflow: hidden;
   }
 
   .card:nth-of-type(odd) .fig-image {
@@ -125,26 +129,10 @@
     margin: 0 12px 0 0;
   }
 
-  /* Images */
-  .card .one {
-    background-image: url(de-images/1.png);
-  }
-
-  .card .two {
-    background-image: url(de-images/2.png);
-  }
-
-  .card .three {
-    background-image: url(de-images/3.png);
-  }
-
-  .card .four {
-    background-image: url(de-images/4.png);
-  }
-
   /* about */
   #about-myself {
     height: 924px;
+    margin-top: 54px;
   }
 
   .about {
@@ -157,6 +145,7 @@
   .wrapper {
     flex-direction: row;
     width: 80%;
+    height: 924px;
     margin: 15% auto;
     align-items: flex-start;
     justify-content: space-between;
@@ -175,7 +164,7 @@
     margin-left: 10px;
   }
 
-  .language-section .flex {
+  .language-section ul ul li.flex {
     flex-direction: column;
     float: left;
     width: 122px;
@@ -186,12 +175,6 @@
 
   .nav-links li {
     margin: 0 16px;
-  }
-
-  .language-section li:nth-of-type(1),
-  .language-section li:nth-of-type(5),
-  .language-section li:nth-of-type(6) {
-    padding-left: 15px;
   }
 
   .language-section li:nth-of-type(5) {
@@ -208,6 +191,21 @@
     margin: auto;
   }
 
+  .contact {
+    top: 720px;
+    background-image: url("pattern/de-contact.svg");
+    background-position: center;
+  }
+
+  .contact section.flex {
+    width: 569px;
+    margin: 0 auto;
+  }
+
+  .contact form {
+    padding: 0 61px;
+  }
+
   .contact form button {
     align-self: center;
   }
@@ -215,6 +213,11 @@
   .contact input,
   .contact textarea {
     border-radius: 2px;
+  }
+
+  .contact textarea {
+    height: 170px;
+    margin-bottom: 10px;
   }
 
   /* ********************************************** */
@@ -233,6 +236,7 @@
   .nav-links li a {
     text-decoration: none;
     color: #344563;
+    transition: color 0.25s;
   }
 
   .hello {
@@ -241,79 +245,19 @@
     margin-top: 300px;
   }
 
-  .back {
-    position: relative;
-    padding: 0 30%;
+  /* don't display on mobile */
+  .card .fig-image .desktop {
+    display: block;
   }
 
-  /* desktop patterns */
-  .first-wrapper > div:nth-of-type(5) {
-    position: absolute;
-    top: 140px;
-    left: 1208px;
+  .card .fig-image .mobile {
+    display: none;
   }
+}
 
-  .first-wrapper > div:nth-of-type(6) {
-    position: absolute;
-    top: 70px;
-    left: 1146px;
-  }
+/* this prevents clutter */
 
-  .first-wrapper > div:nth-of-type(7) {
-    position: absolute;
-    top: 210px;
-    left: 708px;
-  }
-
-  .first-wrapper > div:nth-of-type(8) {
-    position: absolute;
-    top: 190.94px;
-    left: 691.14px;
-  }
-
-  .first-wrapper > div:nth-of-type(9) {
-    position: absolute;
-    top: 146.07px;
-    left: 65.18px;
-  }
-
-  .first-wrapper > div:nth-of-type(10) {
-    position: absolute;
-    top: 94.57px;
-    left: 34.6px;
-  }
-
-  /* contact section patterns */
-  .back > div:nth-of-type(1) {
-    position: absolute;
-    top: 119px;
-    left: 1237px;
-  }
-
-  .back > div:nth-of-type(2) {
-    position: absolute;
-    top: 79.09px;
-    left: 1211.59px;
-  }
-
-  .back > div:nth-of-type(3) {
-    position: absolute;
-    top: 373.17px;
-    left: 75.34px;
-  }
-
-  .back > div:nth-of-type(4) {
-    position: absolute;
-    top: 338.76px;
-    left: 83.86px;
-  }
-
-  .back > div:nth-of-type(5) {
-    position: absolute;
-    top: 762px;
-    left: 358.05px;
-  }
-
+@media (min-width: 950px) {
   /* don't display on mobile */
   .desktop {
     display: block;
