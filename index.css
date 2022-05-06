@@ -399,11 +399,14 @@ img {
 }
 
 .first-wrapper {
-  height: 680px;
-  padding: 24px;
+  height: 718px;
   border-radius: 0 0 0 80px;
   background: #fff;
   position: relative;
+  background-image: url(pattern/header.svg);
+  background-repeat: no-repeat;
+  background-position: right 90px;
+  margin-bottom: 114px;
 }
 
 .first-wrapper nav {
