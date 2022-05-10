@@ -257,7 +257,7 @@
 
 /* this prevents clutter */
 
-@media (min-width: 950px) {
+@media (min-width: 1000px) {
   /* don't display on mobile */
   .desktop {
     display: block;
