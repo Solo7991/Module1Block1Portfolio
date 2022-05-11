@@ -8,10 +8,6 @@ body {
   margin: 0 auto;
 }
 
-/* ********************************** */
-
-/* Grid */
-
 .container {
   display: grid;
   grid-template-columns: 100%;
@@ -21,10 +17,6 @@ body {
   justify-content: center;
   background: #f9f9f9;
 }
-
-/* ********************************** */
-
-/* Card */
 
 .card {
   width: 327px;
@@ -42,17 +34,9 @@ body {
   height: 552px;
 }
 
-/* *********************************** */
-
-/* flexbox */
-
 .flex {
   display: flex;
 }
-
-/* *********************************** */
-
-/* Card content */
 
 .content .head-two {
   font-weight: 700;
@@ -166,9 +150,6 @@ p {
   margin: 0 0 12px 0;
 }
 
-/* ********************************************* */
-
-/* buttons */
 .content button,
 .about button,
 .contact button {
@@ -263,9 +244,6 @@ p {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-/* ****************************************** */
-
-/* about-myself */
 #about-myself {
   width: 100%;
   border-radius: 0 80px 0 0;
@@ -273,13 +251,11 @@ p {
   position: relative;
 }
 
-/* wrapper */
 .wrapper {
   flex-direction: column;
   height: 1263px;
 }
 
-/* about */
 .about {
   margin: 0 24px;
   padding-top: 114px;
@@ -302,9 +278,6 @@ p {
   margin-bottom: 26px;
 }
 
-/* **************************************************** */
-
-/* language-section */
 .language-section {
   margin: 38px 24px 63px 24px;
   font-weight: 500;
@@ -359,10 +332,6 @@ img {
   border-bottom: 1px solid #dfe1e6;
 }
 
-/* ********************************************** */
-
-/* contact */
-
 .contact {
   position: absolute;
   top: 1125px;
@@ -407,9 +376,6 @@ img {
   margin: 20px 0 0 0;
 }
 
-/* *************************************** */
-
-/* amends */
 .icons {
   margin: 0;
   padding: 0;
@@ -457,7 +423,6 @@ img {
   display: none;
 }
 
-/* don't display on mobile */
 .desktop {
   display: none;
 }
